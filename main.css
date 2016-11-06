@@ -4,7 +4,7 @@ h1 {
 }
 .HeadImage {
   	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg');
-	background-position: center top;
+	background-position: center;
 	background-size: cover;
 	padding: 250px 0;
 	margin: -10px;
