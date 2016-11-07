@@ -9,7 +9,7 @@ h1 {
 .HeadImage {
   	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg');
 	width: 100%;
-    	height: auto;
+    	height: 100%;
 	text-shadow: 0 2px #000000;
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
