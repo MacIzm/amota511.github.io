@@ -34,7 +34,7 @@ html, body {
 	*/
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
-	font-size: 80px;
+	font-size: 100px;
   	color: #fff;
 	
 }
@@ -43,7 +43,7 @@ html, body {
 	
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
-	font-size: 30px;
+	font-size: 10px;
   	color: #fff;	
 	margin: -40px;
 }
