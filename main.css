@@ -48,7 +48,10 @@ html, body {
 	margin: -40px;
 }
 
-
+#whitebox {
+	height: 25%;
+	width: 100%;
+}
 
 
 
