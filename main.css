@@ -1,6 +1,6 @@
 html {
 	background-color: #0fe56f;	
-	min-height:100%;
+	
 }
 h1 {
   	color: #307c80;
@@ -8,7 +8,7 @@ h1 {
 }
 .HeadImage {
   	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg') no-repeat center center;
-	min-height:100%;
+	
 	background-size: cover;
 	padding: 250px 0;
 	margin: -10px;
