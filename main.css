@@ -1,6 +1,9 @@
+html {
+	background-color: #0fe56f;	
+}
 h1 {
-  color: #307c80;
-  text-align: center;
+  	color: #307c80;
+ 	text-align: center;
 }
 .HeadImage {
   	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg');
