@@ -5,18 +5,22 @@ html, body {
   	margin: 0;
 	background-color: #0fe56f;
 }
-h1 {
-  	color: #307c80;
- 	text-align: center;
-}
-.HeadImage {
-  	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg');
-    	
-   	
-	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
-  	text-align: center;
-  	color: #fff;
-	
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
