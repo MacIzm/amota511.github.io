@@ -18,6 +18,7 @@ html, body {
 }
 
 #wrapper {
+	left: 50%;
   position: relative;
   width: 800px;
   min-height: 400px;
