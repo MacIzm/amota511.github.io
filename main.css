@@ -19,6 +19,8 @@ html, body {
 
 #wrapper {
 	left: 25%;
+	top: 25%;
+	height: 25%;
   	position: relative;
   	width: 50%;
   	min-height: 400px;
