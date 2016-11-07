@@ -44,17 +44,16 @@ html, body {
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
 	font-size: 20px;
-  	color: #f3f;
-	/*
+  	color: #fff;
 	margin: -40px;
-	*/
+	
 }
 
 #whitebox {
 	height: 25%;
 	width: 100%;
-	background-color: #f0f;
-	top: 90%;
+	background-color: #fff;
+	top: 40%;
 	position: relative;
 }
 
