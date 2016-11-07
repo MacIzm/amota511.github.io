@@ -18,13 +18,13 @@ html, body {
 }
 
 #wrapper {
-	left: 50%;
-  position: relative;
-  width: 50%;
-  min-height: 400px;
-  text-shadow: 0 2px #000000;
+	left: 25%;
+  	position: relative;
+  	width: 50%;
+  	min-height: 400px;
+  	text-shadow: 0 2px #000000;
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
-  color: #fff;
+  	color: #fff;
 	background-color: #f3f;
 }
