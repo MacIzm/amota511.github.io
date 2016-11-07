@@ -21,6 +21,8 @@ html, body {
   position: relative;
   width: 800px;
   min-height: 400px;
-  
+  text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+  	text-align: center;
   color: #fff;
 }
