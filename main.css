@@ -30,12 +30,13 @@ html, body {
 #FirstTxt {
 	/*
 	text-shadow: 0 2px #000000;
+	background-color: #fff;
 	*/
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
 	font-size: 80px;
   	color: #fff;
-	background-color: #fff;
+	
 }
 
 #SecondTxt {
@@ -44,7 +45,7 @@ html, body {
   	text-align: center;
 	font-size: 30px;
   	color: #fff;	
-	padding: -10px;
+	padding: -100px;
 }
 
 
