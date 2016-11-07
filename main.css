@@ -19,15 +19,38 @@ html, body {
 
 #wrapper {
 	left: 25%;
-	top: 25%;
+	top: 35%;
 	height: 25%;
   	position: relative;
   	width: 50%;
   	min-height: 400px;
-  	text-shadow: 0 2px #000000;
+  	
+	
+}
+#FirstTxt {
+	/*
+	text-shadow: 0 2px #000000;
+	*/
 	font-family: 'Trebuchet MS', 'Helvetica';
   	text-align: center;
 	font-size: 100px;
   	color: #fff;
 	
 }
+
+#SecondTxt {
+	
+	font-family: 'Trebuchet MS', 'Helvetica';
+  	text-align: center;
+	font-size: 30px;
+  	color: #fff;	
+	
+}
+
+
+
+
+
+
+
+
