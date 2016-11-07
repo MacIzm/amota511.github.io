@@ -54,7 +54,10 @@ html, body {
 	width: 100%;
 	
 	background-color: #fff;
+	/*
 	margin: 260px 0px 0px 0px;
+	*/
+	top: 30%;
 	position: relative;
 }
 
