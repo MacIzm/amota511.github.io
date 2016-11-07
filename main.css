@@ -20,7 +20,7 @@ html, body {
 #wrapper {
 	left: 50%;
   position: relative;
-  width: 800px;
+  width: 50%;
   min-height: 400px;
   text-shadow: 0 2px #000000;
 	font-family: 'Trebuchet MS', 'Helvetica';
