@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="main.css" media="screen" title="no title">
   </head>
   <body>
-  <img alt="full screen background image" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg" id="full-screen-background-image" /> 
+    <script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("img").src=a.src;
+    }
+</script>
+  <img alt="full screen background image" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg" id="full-screen-background-image" onclick='changeImage("http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg");' /> 
   <div id="wrapper">
     <div>
       <p id="FirstTxt">Aaron Did It</p>
