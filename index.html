@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Aaron Motayne</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" media="screen" title="no title">
   </head>
   
   <body>
-    <div id="wrapper">
+    <div class="container-fluid">
          
-         <img alt="full screen background image" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg" id="full-screen-background-image" onclick=changeImage("http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg"); />
-        
-        <div>
-         <p id="FirstTxt">Aaron Did It</p>
+         <img alt="full screen background image" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg" id="full-screen-background-image"/>
+        <div class="row">
+            <div id="HeaderTextBox">
+                <p >Aaron Motayne</p>
+            </div>
         </div>
+        
     
-        <div id="SecondTxt">
+        <div id="SubheaderTextBox">
           <p>Aaron Did It Aaron Did It Aaron Did It Aaron Did It Aaron Did It</p>
         </div>
     
@@ -29,32 +34,10 @@
       
     </div>
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>  
 
-    <script type="text/javascript">
-        
-        window.onload = function () {
-            //$(document).width = $(window).width();
-            //document.body.style.backgroundImage = "url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg')"; 
-            //window.body.style.backgroundImage = "url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg')"; 
-             //"http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg";
-            window.onscroll = function () {
-                if (document.body.scrollTop > 800) {
-                     document.getElementById("full-screen-background-image").src="http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg";
-                }
-                if (document.body.scrollTop < 800 && document.getElementById("full-screen-background-image").src != "http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg") {
-                     document.getElementById("full-screen-background-image").src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg";
-                }
-            };
-        };
-    
-    function changeImage(a) {
-        <!--document.getElementById("full-screen-background-image").src=a;-->
-    }
-    
-        </script>   
 </body>
 
 </html>
