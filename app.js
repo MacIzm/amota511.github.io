@@ -10,13 +10,15 @@ var main = function() {
 
                 if (document.body.scrollTop > 600 && background_image.src != "http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg") {
                      background_image.src = "http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg";
+                     background_image.style.left = 0 + 'px';
                      console.log("The second image is now visible");
                 }  
                 if (document.body.scrollTop < 600 && background_image.src != "http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg") {
                     background_image.src = "http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg";
+                    background_image.style.left = 0 + 'px';
                      console.log("The first image is now visible");
                 }
-                
+                background_image.style.left = (document.body.scrollTop * 1.69) + 'px';
                 // $("#full-screen-background-image").animate({
                 // 	width: "70%",
                 // 	top: '+=0.1'
