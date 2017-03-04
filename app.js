@@ -18,14 +18,14 @@ var main = function() {
         		background_image.src = img2;
             	console.log("The second image is now visible");
         	}
-        	background_image.style.top = (-(top - (window_height * 2.2)) * 0.075) + 'px';
+        	background_image.style.top = (-(top - (window_height * 2.2)) * 0.095) + 'px';
             
         }  else if (top < window_height) {
         	if (background_image.src != img1) {
         		background_image.src = img1;
             	console.log("The first image is now visible");
         	}
-            background_image.style.top = -(top * 0.075) + 'px';
+            background_image.style.top = -(top * 0.095) + 'px';
         }
         
         console.log(-(top - window_height));
