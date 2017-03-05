@@ -2,12 +2,10 @@ var main = function() {
 			
 	document.body.scrollTop = 0;
 
-    var background_image = $("#full-screen-background-image")[0];
+    var window_height = window.innerHeight;
+    var background_image = $("#background_image")[0];
     var img1 = "http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper.jpg"; 
-    var img2 = "http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg";
-    var scrollBy = 0;
-    var lastScroll = 0;
-    var window_height = window.innerHeight;       
+    var img2 = "http://www.wallpapers10.net/wp-content/uploads/images/wallpapers10.net-abstract-143.jpg";  
 
     window.onscroll = function() {
     	
